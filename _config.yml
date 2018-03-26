@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title: "The Azure Stack Forge"
-description: "A location for Azure related training material developed and maintained by the UK One Commercial Partner Solution Architect team at Microsoft"
+description: "Azure Stack related training material developed and maintained with a little help from my friends"
 logo: MSLogo.jpg
 teaser: MSLogo.jpg
 featured: project.png
@@ -57,12 +57,12 @@ defaults:
 
 # Site owner
 owner:
-  name: Adam Bohle
-  email: adam.bohle@microsoft.com
-  twitter: https://twitter.com/adambohle
+  name: Fredrik Nilsson
+  email: fredrik_nilsson@outlook.com
+  twitter: https://twitter.com/fredriknilsson_
   bio:
-  avatar: abohle-bio.jpg # 160x160 px image for author byline
-  disqus-shortname: https-ukpducim-github-io
+  avatar: gargamel.jpg # 160x160 px image for author byline
+  disqus-shortname: https-czw2pv-github-io
 
 include:
   - .htaccess
