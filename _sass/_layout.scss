@@ -270,6 +270,8 @@
 	// expand image to cover full width of header
 	img {
 		width: 100%;
+		object-fit: cover;
+		height: 400px;
 	}
 }
 // make image flush with edges on small screens
@@ -298,6 +300,28 @@
 }
 
 /*
+   Navigation
+   ========================================================================== */
+
+.PageNavigation {
+	font-size: 18px;
+	display: block;
+	width: auto;
+	overflow: hidden;
+}
+  
+.PageNavigation a {
+	display: block;
+	width: 50%;
+	float: left;
+	margin: 1em 0;
+}
+  
+.PageNavigation .next {
+	text-align: right;
+}
+
+/*
    Page footer
    ========================================================================== */
 
@@ -311,7 +335,7 @@
 	position: absolute;
 	left: 0;
 	img {
-		width: 80px;
+		/*width: 80px;*/
 		height: 80px;
 		border-radius: $border-radius;
 	}

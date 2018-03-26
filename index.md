@@ -1,13 +1,8 @@
 ---
-layout: archive
+layout: home
 permalink: /
 title: "Home"
 image:
-  feature: AzureStackBanner.png
+  feature: banner.png
 ---
 
-<div class="tiles">
-{% for post in site.posts %}
-	{% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles -->

@@ -47,9 +47,17 @@ sitemap: false
 @import "toc"; /* table of contents */
 @import "breadcrumbs";
 @import "syntax";
+@import "syntax-highlighting";
+
 
 /*
    Page specific
    ========================================================================== */
 
 @import "layout";
+
+/*
+   Extra stuff
+   ========================================================================== */
+
+   @import "home";

@@ -1,11 +1,13 @@
 # Site wide configuration
 
-title: "The Azure Stack Forge"
-description: "The intent of this site is to provide training material for Azure Stack and is maintained by Fredrik Nillson and friends"
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+title: "Azure Citadel"
+description: "A location for Azure related training material developed and maintained by the UK One Commercial Partner Solution Architect team at Microsoft"
+logo: MSLogo.jpg
+teaser: MSLogo.jpg
+featured: project.png
 locale: en
-url: https://czw2pv.github.io/
+timezone: Europe/London
+url: https://azurecitadel.github.io
 feed:
   path: atom.xml
 
@@ -14,16 +16,17 @@ feed:
 sass:
   sass_dir: _sass
   style: compressed
-permalink: /:categories/:title/
+permalink: pretty
 kramdown:
+  input: GFM
   toc_levels: 1..2
 highlighter: rouge
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
 
-# Vad ger detta?
+# Front matter defaults
 defaults:
   # _posts
   - scope:
@@ -54,17 +57,21 @@ defaults:
 
 # Site owner
 owner:
-  name: Fredrik Nilsson
-  email: fredrik_nilsson@outlook.com
-  twitter: https://twitter.com/fredriknilsson_
+  name: Adam Bohle
+  email: adam.bohle@microsoft.com
+  twitter: https://twitter.com/adambohle
   bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname:
-
+  avatar: abohle-bio.jpg # 160x160 px image for author byline
+  disqus-shortname: https-ukpducim-github-io
 
 include:
   - .htaccess
+  - "_pdu"
   - "_workshops"
+  - "_posts"
+  - "_pages"
+  - "_blogs"
+  - "_landingpages"
 exclude:
   - "*.less"
   - "*.sublime-project"
@@ -81,6 +88,7 @@ exclude:
   - README
   - Rakefile
   - config
+  - github-pages-local.md
   - gulpfile.js
   - lib
   - log

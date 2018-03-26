@@ -6,14 +6,15 @@
    Typography variables
    ========================================================================== */
 
-$base-font                   	: Georgia,Times,"Times New Roman",serif;
+//$base-font                   	: Georgia,Times,"Times New Roman",serif;
+$base-font                   	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
 $heading-font                	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
 $alt-font                    	: $heading-font;
 
 $doc-font-size               	: 16;
-$doc-line-height             	: 24;
+$doc-line-height             	: 20;
 
 $border-radius               	: 3px;
 
@@ -21,18 +22,22 @@ $border-radius               	: 3px;
    Color variables
    ========================================================================== */
 
-$white                        : #fff;
-$black                        : #000;
+$white                          : #fff;
+$black                          : #000;
+$slate                          : #1C465F;
 
 $body-color                  	: #ebebeb;
 
 $text-color                  	: #313130;
-$caption-color                : mix($white, $text-color, 25%);
+$caption-color                  : mix($white, $text-color, 25%);
+
+$code-color                    : #D8DEE9; // $nord4
+$code-background-color          : #2E3440; // $nord0
 
 $base-color                  	: #343434;
 $comp-color                  	: complement($base-color);
-$border-color                	: #ddd;
-$link-color                  	: #222;
+$border-color                	: #5B3266;
+$link-color                  	: darken(#5E81AC, 1);
 
 $primary-color               	: $black;
 $success-color               	: #2ecc71;
@@ -42,11 +47,11 @@ $info-color                  	: #3498db;
 
 $table-border-color          	: $border-color;
 $table-border                	: 1px solid $table-border-color;
-$table-background            	: $body-color;
-$table-header-color          	: lighten($table-background, 10);
+$table-background            	: darken($body-color, 1);
+$table-header-color          	: darken($body-color, 2);
 $table-hover-color           	: darken($table-background, 2);
 $table-stripe-color          	: darken($table-background, 4);
-$table-stripe-color-hover    	: darken($table-stripe-color, 5);
+$table-stripe-color-hover    	: darken($table-stripe-color, 3);
 
 $facebook-color					      : #3b5998;
 $flickr-color					        : #ff0084;
@@ -80,10 +85,10 @@ $form-font-size              	: $doc-font-size;
    Sliding menu navigation variables
    ========================================================================== */
 
-$sliding-menu-border-color	 	 : $black;
-$sliding-menu-background 		   : $black;
+$sliding-menu-border-color	 	 : $slate;
+$sliding-menu-background 		   : $slate;
 $sliding-menu-color 	 		     : $white;
-$sliding-menu-background-hover : $black;
+$sliding-menu-background-hover : $slate;
 $sliding-menu-color-hover	 	   : $white;
 $sliding-menu-border   			   : 1px solid $sliding-menu-border-color;
 $button-size		         	     : 30px;
