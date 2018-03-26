@@ -36,6 +36,7 @@ owner:
 
 include:
   - .htaccess
+  - "_workshops"
 exclude:
   - "*.less"
   - "*.sublime-project"
