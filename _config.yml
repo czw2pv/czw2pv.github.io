@@ -1,13 +1,13 @@
 # Site wide configuration
 
-title: "Azure Citadel"
+title: "The Azure Stack Forge"
 description: "A location for Azure related training material developed and maintained by the UK One Commercial Partner Solution Architect team at Microsoft"
 logo: MSLogo.jpg
 teaser: MSLogo.jpg
 featured: project.png
 locale: en
 timezone: Europe/London
-url: https://azurecitadel.github.io
+url: https://czw2pv.github.io
 feed:
   path: atom.xml
 
