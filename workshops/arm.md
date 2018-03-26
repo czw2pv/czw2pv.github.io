@@ -6,7 +6,7 @@ categories: workshops
 tags: [authoring, arm, workshop, hackathon, lab, template]
 comments: true
 author: Richard_Cheney
-featured: true
+featured: false
 image:
   feature: 
   teaser: Education.jpg

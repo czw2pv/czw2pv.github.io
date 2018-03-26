@@ -6,7 +6,7 @@ categories: workshops
 tags: [azure, 101, index, content]
 comments: true
 author: Richard_Cheney
-featured: true
+featured: false
 excerpt: The Azure 101 session is intended as an introductory training for technical learners who have had little to no experience with Azure public cloud.
 image:
   feature: featured/corp1.jpg

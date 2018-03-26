@@ -6,7 +6,7 @@ categories: workshops
 #permalink: /seclab/
 tags: [security, azure, infrastructure]
 comments: true
-featured: true
+featured: false
 excerpt: This workshop is focused on securing IaaS and PaaS workloads in Azure.     
 author: Adam_And_Tom
 image:

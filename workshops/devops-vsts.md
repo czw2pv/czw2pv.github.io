@@ -5,7 +5,7 @@ date: 2017-09-29
 categories: workshops
 tags: [vscode, vsts, nodejs, docker, containers, workshop]
 comments: true
-featured: true
+featured: false
 author: John_And_Ben
 excerpt: This workshop is a series of hands-on labs focused on deploying a Node.js app to Azure PaaS using VSTS and a DevOps approach & containers.
 image:
