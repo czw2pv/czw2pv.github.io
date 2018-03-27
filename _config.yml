@@ -2,10 +2,10 @@
 
 title: "The Azure Stack Forge"
 description: "This is a description of my awesome site."
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+logo: fredriknilsson_.jpg # 120x120 px default image used for Twitter summary card
+teaser: fredriknilsson_.jpg # 400x250 px default teaser image used in image archive grid
 locale: en
-url: https://czw2pv.github.io/
+url: https://czw2pv.github.io
 feed:
   path: atom.xml
 
