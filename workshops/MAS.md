@@ -9,7 +9,7 @@ author: Fredrik_Nilsson
 featured: True
 image:
   feature: 
-  teaser: Education.jpg
+  teaser:
   thumb: 
 excerpt: What is a MAS integrated system.
 ---

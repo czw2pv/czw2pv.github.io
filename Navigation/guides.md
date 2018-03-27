@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /guides/
-title: "Guides"
+title: "Stap by Step Guides"
 ---
 
 <div class="tiles">
