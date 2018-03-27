@@ -9,7 +9,7 @@ comments: true
 author: Fredrik_Nilsson
 featured: True
 image: fredriknilsson_.jpg
-  feature: 
+  feature:
   teaser: fredriknilsson_.jpg
   thumb: 
 excerpt: Step by step Guides to help ypu get started.
