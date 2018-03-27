@@ -17,7 +17,7 @@
 
 - title: Demos
   url: /demos/
-  excerpt: "Demo workloads that can be used"
+  excerpt: "Demo workloads that can be used to skow the awesome sause of Azure Stack"
   image:
 
 - title: HOL
@@ -27,5 +27,5 @@
 
 - title: Architecture
   url: /architecture/
-  excerpt: "SAzure Stack Architecture"
+  excerpt: "Azure Stack Architecture"
   image:
