@@ -12,11 +12,12 @@ image:
   feature: 
   teaser: Education.jpg
   thumb: 
-excerpt: Learn how to use Infrastructure as Code with Azure Resource Manager template deployments.
+excerpt: What is a MAS integrated system.
 ---
 {% include toc.html %}
 {% include toc.html %}
 
 ## Introduction
 
+What is a MAS integrated system  
 Stay Tuned... Coming Soon....
