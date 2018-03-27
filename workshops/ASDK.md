@@ -1,6 +1,5 @@
 ---
 layout: article
-permalink: /ASDK/
 title: Azure Stack Development Kit
 date: 2018-03-27
 categories: workshops

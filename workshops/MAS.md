@@ -1,6 +1,5 @@
 ---
 layout: article
-permalink: /MAS/
 title: Microsoft Azure Stack Integrated System
 date: 2018-03-27
 categories: workshops

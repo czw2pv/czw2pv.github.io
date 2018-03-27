@@ -1,12 +1,12 @@
 # Site navigation links
 
 - title: Workshops 
-  url: /ASDK/
+  url: /workshops/
   excerpt: Step-By Step Guides
   image: 
 
 - title: Videos
-  url: /MAS/
+  url: /videos/
   excerpt: Step-By Step Guides
   image: 
 
@@ -21,11 +21,11 @@
   image:
 
 - title: HOL
-  url: /labs/
+  url: /hol/
   excerpt: "Hands On Labs"
   image:
 
-- title: DevOps
-  url: /guides/
-  excerpt: "DevOps material"
+- title: Architecture
+  url: /architecture/
+  excerpt: "SAzure Stack Architecture"
   image:
