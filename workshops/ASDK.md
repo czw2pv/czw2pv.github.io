@@ -21,3 +21,14 @@ excerpt: Step by step Guides to help ypu get started.
 
 Stay Tuned... Coming Soon...
 
+<<<<<<< HEAD
+=======
+<div class="tiles">
+	{% assign sorted_pages = site.pages | sort:"date" | reverse %}
+	{% for page in sorted_pages %}
+		{% if page.categories == "workshops" %}
+			{% include page-grid.html %}
+		{% endif %} 
+	{% endfor %}
+</div>
+>>>>>>> f501245d60620ad52c6e3eb5f61f886b491897dd
