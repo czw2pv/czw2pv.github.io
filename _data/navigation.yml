@@ -1,7 +1,7 @@
 # Site navigation links
 
-- title: Workshops 
-  url: /workshops
+- title: Azure Stack Development Kit 
+  url: /ASDK/
   excerpt: Step-By Step Guides
   image: 
 
