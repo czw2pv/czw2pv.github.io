@@ -8,9 +8,9 @@ tags: [step by step, guide, Azure Stack, MAS, How to, template]
 comments: true
 author: Fredrik_Nilsson
 featured: True
-image: fredriknilsson_.jpg
+image:
   feature:
-  teaser: fredriknilsson_.jpg
+  teaser:
   thumb: 
 excerpt: Step by step Guides to help ypu get started.
 ---
