@@ -8,7 +8,7 @@ tags: [step by step, guide, Azure Stack, MAS, How to, template]
 comments: true
 author: Fredrik_Nilsson
 featured: True
-image: fredriknilsson_
+image: fredriknilsson_.jpg
   feature: 
   teaser: fredriknilsson_.jpg
   thumb: 
