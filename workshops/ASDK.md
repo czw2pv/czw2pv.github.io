@@ -3,7 +3,7 @@ layout: article
 permalink: /workshops/
 title: Step by step Guides
 date: 2018-03-27
-categories: guide
+categories: workshops
 tags: [step by step, guide, Azure Stack, MAS, How to, template]
 comments: true
 author: Fredrik_Nilsson
