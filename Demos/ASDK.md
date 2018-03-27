@@ -2,8 +2,8 @@
 layout: article
 title: Azure Stack Development Kit
 date: 2018-03-27
-categories: workshops, demos
-tags: [step by step, guide, Azure Stack, MAS, How to, template]
+categories: demos
+tags: [step by step, guide, Azure Stack, MAS, demos, template]
 comments: true
 author: Fredrik_Nilsson
 featured: True
