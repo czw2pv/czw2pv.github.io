@@ -1,11 +1,11 @@
 # Site navigation links
 
-- title: Workshops
-  url: /workshops/
+- title: Workshops - ASDK
+  url: /workshops/ASDK.md
   excerpt: Step-By Step Guides
   image: fredriknilsson_.jpg
 
 - title: Videos
-  url: /workshops/
+  url: /workshops/MAS.md
   excerpt: Step-By Step Guides
   image: fredriknilsson_.jpg
