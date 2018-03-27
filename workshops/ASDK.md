@@ -20,5 +20,4 @@ excerpt: Step by step Guides to help ypu get started.
 ## Introduction
 
 What is a ASDK, Azure STack POC or even a Azure Stack single node?  
-
 Stay Tuned... Coming Soon...
