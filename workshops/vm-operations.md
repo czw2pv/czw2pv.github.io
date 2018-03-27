@@ -6,7 +6,7 @@ categories: workshops
 #permalink: /vmoperations/
 tags: [management, operations, backup, dr, inventory, change management, azure, infrastructure]
 comments: true
-featured: false
+featured: true
 excerpt: This workshop is focused on performing operations on virtual machines in Azure.     
 author: Dan_And_Tom
 image:
