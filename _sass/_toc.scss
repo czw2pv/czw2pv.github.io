@@ -35,8 +35,7 @@
       border-left: 2px solid transparent;
       &:hover,
       &:focus {
-        background: rgb(0, 120, 215); // Use Azure blue
-        color: #fff;
+        background: mix($white, $border-color, 5%);
       }
     }
   }
@@ -45,7 +44,7 @@
     padding: 7px 1.618rem;
     background: $table-stripe-color;
     &:hover {
-      //background: mix($white, $border-color, 5%);
+      background: mix($white, $border-color, 5%);
     }
     a {
       color: $text-color;

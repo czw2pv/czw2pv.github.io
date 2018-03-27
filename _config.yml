@@ -1,13 +1,11 @@
 # Site wide configuration
 
-title: "The Azure Stack Forge"
-description: "Azure Stack related training material developed and maintained with a little help from my friends"
-logo: MSLogo.jpg
-teaser: MSLogo.jpg
-featured: project.png
+title: "My Site"
+description: "This is a description of my awesome site."
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
-timezone: Europe/London
-url: https://czw2pv.github.io
+url:
 feed:
   path: atom.xml
 
@@ -16,62 +14,31 @@ feed:
 sass:
   sass_dir: _sass
   style: compressed
-permalink: pretty
+permalink: /:categories/:title/
 kramdown:
-  input: GFM
   toc_levels: 1..2
 highlighter: rouge
-plugins:
+gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
 
-# Front matter defaults
-defaults:
-  # _posts
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: article
-      author_profile: true
-      comments: true
-      share: true
-      related: true
-  # images
-  - scope:
-      path: "images"
-    values:
-      image: true
 
 # Site owner
 owner:
-  name: Fredrik Nilsson
-  email: fredrik_nilsson@outlook.com
-  twitter: https://twitter.com/fredriknilsson_
+  name:
+  email:
+  twitter:
+  google:
+    ad-client:
+    ad-slot:
   bio:
-  avatar: gargamel.jpg # 160x160 px image for author byline
-  disqus-shortname: https-czw2pv-github-io
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+  disqus-shortname:
+
 
 include:
   - .htaccess
-  - "_pdu"
-  - "_workshops"
-  - "_posts"
-  - "_pages"
-  - "_blogs"
-  - "_landingpages"
 exclude:
   - "*.less"
   - "*.sublime-project"
@@ -88,7 +55,6 @@ exclude:
   - README
   - Rakefile
   - config
-  - github-pages-local.md
   - gulpfile.js
   - lib
   - log

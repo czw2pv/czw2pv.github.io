@@ -11,35 +11,6 @@ body {
 	color: $text-color;
 	@include font-size(16);
 }
-.info, .success, .warning, .error, .validation {
-	border: 1px solid;
-	margin: 10px 0px;
-	padding:15px 10px 15px 50px;
-	background-repeat: no-repeat;
-	background-position: 10px center;
-	}
-	.info {
-	color: darken($info-color, 10);
-	background-color: lighten($info-color, 40);
-	border-left: 6px solid $info-color;
-	}
-	.success {
-	color: darken($success-color, 10);
-	background-color: lighten($success-color, 40);
-	border-left: 6px solid $success-color;
-	}
-	.warning {
-	color: darken($warning-color, 10);
-	background-color: lighten($warning-color, 40);
-	border-left: 6px solid $warning-color;
-	}
-	.error {
-	color: darken($danger-color, 10);
-	background-color: lighten($danger-color, 40);
-	border-left: 6px solid $danger-color;
-	}
-
-
 
 p {
 	@include font-size(18,yes,28);
@@ -54,8 +25,6 @@ li {
 h1, h2, h3, h4, h5, h6 {
 	font-family: $heading-font;
 	text-rendering: optimizeLegibility; // Fix the character spacing for headings
-	//color: darken($slate, 4);
-	color: rgb(0, 120, 215); // Use Azure blue
 }
 h1 {
 	@include font-size(36);
@@ -89,9 +58,7 @@ ins {
 a {
 	color: $link-color;
 	&:hover {
-		color: darken($link-color, 10);
-		text-decoration: underline;
-		text-decoration-color: $black;
+		color: darken($link-color, 20);
 	}
 	&:focus {
 		@extend %tab-focus;
@@ -107,12 +74,10 @@ a {
 blockquote {
   padding-left: $gutter;
   padding-right: $gutter;
-  /* border-left: 6px solid $info-color; */
-  border-left: 6px solid $slate;
+  border-left: 6px solid $info-color;
   p {
     font-family: $alt-font;
-		// @include font-size(24);
-		@include font-size(18);
+    @include font-size(24);
   }
   cite {
     font-family: $base-font;
@@ -124,27 +89,21 @@ blockquote {
 
 // Code
 tt, code, kbd, samp, pre {
-	@include font-size(16,no);
 	font-family: $code-font;
-	color: $code-color;
-	background-color: $code-background-color;
 }
 pre {
 	overflow-x: auto; // add scrollbars to wide code blocks
 }
-
 p code,
 li code {
-	@include font-size(18,no);
+	@include font-size(16,no);
 	color: $text-color;
-	font-family: $code-font;
-	//background-color: $code-background-color;
-	background-color: lighten($primary-color, 95);
 	white-space: nowrap;
 	margin: 0 2px;
-	padding: 2px 5px 2px 5px;
-	border: 1px solid #bdbdbd;
-	border-radius: 1;
+	padding: 0 5px;
+	border: 1px solid $border-color;
+	background-color: lighten($primary-color, 95);
+	border-radius: $border-radius;
 }
 
 /*
