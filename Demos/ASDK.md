@@ -11,12 +11,12 @@ image:
   feature:
   teaser:
   thumb: 
-excerpt: Step by step Guides to help ypu get started.
+excerpt: Demos that you can do on the ASDK.
 ---
 {% include toc.html %}
 {% include toc.html %}
 
 ## Introduction
 
-What is a ASDK, Azure STack POC or even a Azure Stack single node?  
+Demos that you can do on the ASDK
 Stay Tuned... Coming Soon...
