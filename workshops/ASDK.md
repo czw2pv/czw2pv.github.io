@@ -1,5 +1,6 @@
 ---
 layout: article
+permalink: /workshops/
 title: Authoring ARM Templates
 date: 2018-01-08
 categories: workshops
