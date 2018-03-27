@@ -1,11 +1,41 @@
 # Site navigation links
 
-- title: Workshops - ASDK
-  url: /workshops/ASDK.md
+- title: Workshops
+  url: /workshops/
   excerpt: Step-By Step Guides
-  image: fredriknilsson_.jpg
+  image: 
 
 - title: Videos
-  url: /workshops/MAS.md
+  url: /workshops/
   excerpt: Step-By Step Guides
-  image: fredriknilsson_.jpg
+  image: 
+
+- title: How to's
+  url: /workshops/
+  excerpt: "Step by Step Guides"
+  image:
+
+- title: Demos
+  url: /demos/
+  excerpt: "Demo workloads that can be used"
+  image:
+
+- title: HOL
+  url: /labs/
+  excerpt: "Hands On Labs"
+  image:
+
+- title: DevOps
+  url: /guides/
+  excerpt: "DevOps material"
+  image:
+
+- title: Operations
+  url: /videos/
+  excerpt: "Videos"
+  image:
+
+- title: User
+  url: /videos/
+  excerpt: "Videos"
+  image:
