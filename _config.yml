@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title: "The Azure Stack Forge"
-description: "This is a description of my awesome site."
+description: "This is a description of my Azure Stack site."
 logo: fredriknilsson_.jpg # 120x120 px default image used for Twitter summary card
 teaser: fredriknilsson_.jpg # 400x250 px default teaser image used in image archive grid
 locale: en
