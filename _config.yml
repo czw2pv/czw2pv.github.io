@@ -31,6 +31,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+      comments: true
+      share: true
+      related: true
+# images
+  - scope:
+      path: "images"
+    values:
+      image: true
 
 
 # Site owner
@@ -49,6 +57,7 @@ owner:
 include:
   - .htaccess
   - "_pages"
+  - "_posts"
 exclude:
   - "*.less"
   - "*.sublime-project"
