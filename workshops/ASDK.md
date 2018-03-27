@@ -1,18 +1,18 @@
 ---
 layout: article
 permalink: /workshops/
-title: Authoring ARM Templates
-date: 2018-01-08
-categories: workshops
-tags: [authoring, arm, workshop, hackathon, lab, template]
+title: Step by step Guides
+date: 2018-03-27
+categories: guide
+tags: [step by step, guide, Azure Stack, MAS, How to, template]
 comments: true
 author: Fredrik_Nilsson
 featured: True
-image:
+image: fredriknilsson_
   feature: 
-  teaser: Education.jpg
+  teaser: fredriknilsson_.jpg
   thumb: 
-excerpt: Learn how to use Infrastructure as Code with Azure Resource Manager template deployments.
+excerpt: Step by step Guides to help ypu get started.
 ---
 {% include toc.html %}
 {% include toc.html %}
@@ -20,3 +20,4 @@ excerpt: Learn how to use Infrastructure as Code with Azure Resource Manager tem
 ## Introduction
 
 Stay Tuned... Coming Soon...
+
